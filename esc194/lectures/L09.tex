@@ -50,7 +50,7 @@
         Let $f(x)=x^2$. Find $f'(x)$:
         \begin{align}
             f'(x) &= \lim_{h\to 0} \frac{(x+h)^2-x^2}{h} \\ 
-            &= \lim_{h\to 0} \frac{(x^2_2hx_h^2-x^2}{h} \\ 
+            &= \lim_{h\to 0} \frac{(x^2+2hx+h^2-x^2}{h} \\ 
             &= \lim_{h\to 0} \frac{2hx+h^2}{h} \\ 
             &= \lim_{h\to 0} (2x+h)
         \end{align}
@@ -63,7 +63,7 @@
     \begin{example}
         Let $f(x)=x^n$. Prove that $f'(x)=nx^{n-1}$.
         \begin{align}
-            f'(x) &= \lim_{h\to 0}\frac{(x+n)^n-x^n}{h} \\ 
+            f'(x) &= \lim_{h\to 0}\frac{(x+h)^n-x^n}{h} \\ 
             &= \lim_{h\to 0} \frac{x^n+nx^{n-1}h+\binom{n}{2}x^{n-2}h^2+\cdots + \cdots + h^n-x^n}{h} \\ 
             &=  \lim_{h\to 0} \frac{nx^{n-1}h+\binom{n}{2}x^{n-2}h^2+\cdots + \cdots + h^n}{h} \\ 
             &= \lim_{h\to 0} nx^{n-1}+\binom{n}{2}x^{n-2}h+\cdots + \cdots + h^{n-1} \\ 
